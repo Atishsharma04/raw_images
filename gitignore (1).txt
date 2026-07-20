@@ -1,0 +1,55 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ==========================
+# Virtual Environment
+# ==========================
+venv/
+.env
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+
+# ==========================
+# Jupyter
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# Model Weights
+# ==========================
+*.pt
+*.pth
+*.h5
+*.keras
+*.ckpt
+
+# ==========================
+# Training Outputs
+# ==========================
+outputs/
+logs/
+checkpoints/
+
+# TensorBoard
+events.out.tfevents.*
+
+# ==========================
+# Dataset (Do NOT upload)
+# ==========================
+raw_arm_split/
+train_images_labels_targets/
+test_images_labels_targets/
+
+# ==========================
+# OS Files
+# ==========================
+Thumbs.db
+.DS_Store
